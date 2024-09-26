@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
     exit(1);
     }
     out = fopen(argv[2], "wb");
-    if (in == NULL) {
+    if (out == NULL) {
     fprintf(stderr, "fixgz: cannot create %s\n", argv[2]);
     exit(1);
     }
